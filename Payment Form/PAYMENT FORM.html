@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="eng">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=devicewidth initial=1.0">
+    <title>PAYMENT FORM</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="form">
+        <form action="" method="get">
+            <img id="img" src="doll logo png.png" alt="" width="25%">
+            <h1 class="main_heading"> PAYMENT FORM</h1>
+            <h2 class="main_heading">Contact Information</h2>
+
+            <p>NAME: <input type="text" name="name" id="name" placeholder="Enter Name" required name="name"></p>
+            <fieldset>
+                <legend>GENDER:</legend>
+                <p>Male: <input type="radio" name="gender" id="gender"></p>
+                <p>Female: <input type="radio" name="gender" id="gender"></p>
+            </fieldset>
+            <p>Address: <textarea name="address" cols="100" rows="8"></textarea></p>
+            <p>E-mail: <input type="email" name="email" id="email"></p>
+            <p>Pincode: <input type="number" name="pincode" id="pincode"></p>
+            <h2>Payment Details</h2>
+            <p>Card Type: <select>
+        <option value="">--Select Card Type--</option>
+        <option value="visa">Visa</option>
+        <option value="rupay">Rupay</option>
+        <option value="mastercard">Master card</option>
+    </select>
+            </p>
+            <p>Card Number: <input type="number" name="card_number" id="card_number"></p>
+            <p>Expiration Date: <input type="date" name="exp_date" id="exp_date"></p>
+            <p>Cvv: <input type="password" name="cvv" id="cvv"></p>
+            <input type="submit" name="Pay Now" id="payNow">
+        </form>
+    </div>
+</body>
+
+</html>
